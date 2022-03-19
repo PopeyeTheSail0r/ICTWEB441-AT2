@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "RalewayBold";
+    src: url(./fonts/Raleway-Bold.ttf);
+  }
+@font-face {
+    font-family: "RalewayNormal";
+    src: url(./fonts/Raleway-Regular.ttf);
+  }
+
+* {
+    background-color: #440078;
+    color:white;
+    font-family: 'RalewayNormal'!important;
+
+  }
+  .contentHeader {
+    font-family: 'RalewayBold'!important;
+   
+    text-align: center;
+  }
+  .contentBody {
+
+    text-align: center;
+  }
+  .headerItemList {
+    font-weight: bolder;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .headerItem {
+      padding:10px;
+    display: inline-block;
+  }
+
+  .buttonWallet{
+      background-color: #1199FA;
+      border:none;
+      border-radius: 80px;
+      padding: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+#infoText{
+  text-decoration: underline;
+  font-style: italic;
+  color:#1199FA;
+    margin-top:70px;
+    font-size:0.7rem;
+}
+#headerText{
+    font-size:4rem;
+}
+#headerTextDiv{
+    margin-top: -40px;
+    margin-bottom: 100px;
+}
+#headerImageDiv{
+    display:block;
+}
+#imageHome{
+height:30vh;
+
+
+}
